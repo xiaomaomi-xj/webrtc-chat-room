@@ -1,0 +1,123 @@
+.chat-message-video-box {
+    position: absolute;
+    min-width: 100%;
+    min-height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff42;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    transition: .6s;
+    display: none;
+}
+
+.chat-message-video-box .chat-message-video-box-main {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 90%;
+    font-size: 1.2em;
+    color: rgb(221, 221, 221);
+    min-height: 90vh;
+    background-color: rgba(0, 0, 0, 0.884);
+    padding: 1em;
+    border-radius: 1px;
+    display: flex;
+    flex-direction: column;
+}
+
+.chat-message-video-box .chat-message-video-box-main .chat-message-video-box-body{
+    flex: 1;
+}
+
+.chat-message-video-box .chat-message-video-box-main>div {
+    padding: 1em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.chat-message-video-box .chat-message-video-box-main .chat-message-video-box-header {
+    position: relative;
+    padding-top: .5em;
+    font-size: 1.3em;
+    font-weight: bolder;
+}
+
+.chat-message-video-box .chat-message-video-box-main .chat-message-video-box-header .chat-message-video-box-close {
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    border-radius: 40px;
+    background-color: transparent;
+    top: -0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.chat-message-video-box .chat-message-video-box-main .chat-message-video-box-header .chat-message-video-box-close:hover div {
+    background-color: rgb(187, 16, 16);
+}
+
+.chat-message-video-box .chat-message-video-box-main .chat-message-video-box-header .chat-message-video-box-close div {
+    transition: .3s;
+}
+
+.chat-message-video-box .chat-message-video-box-main .chat-message-video-box-header .chat-message-video-box-close .chat-message-video-box-left {
+    width: 35px;
+    height: 5px;
+    background-color: rgb(221, 221, 221);
+    position: absolute;
+    transform: rotateZ(45deg);
+    border-radius: 5px;
+}
+
+.chat-message-video-box .chat-message-video-box-main .chat-message-video-box-header .chat-message-video-box-close .chat-message-video-box-right {
+    width: 35px;
+    height: 5px;
+    background-color: rgb(221, 221, 221);
+    transform: rotateZ(-45deg);
+    border-radius: 5px;
+}
+
+.chat-message-video-box .chat-message-video-box-main .chat-message-video-box-body {
+    margin: .5em;
+    font-size: 1em;
+}
+
+.chat-message-video-box .chat-message-video-box-main .chat-message-video-box-body .chat-message-video-box-video {
+    max-width: 100%;
+    object-fit: contain;
+}
+
+.chat-message-video-box .chat-message-video-box-main .chat-message-video-box-footer {
+    padding: .5em;
+}
+
+.chat-message-video-box .chat-message-video-box-main .chat-message-video-box-footer .chat-message-video-box-button {
+    font-size: 1.3em;
+    padding: .5em 1.5em;
+    background-color: rgba(0, 0, 0, .2);
+    border-radius: 10px;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.chat-message-video-box .chat-message-video-box-main .chat-message-video-box-footer .chat-message-video-box-button:hover {
+    background-color: rgba(0, 0, 0, .5);
+    color: rgb(187, 214, 187);
+}
+
+.chat-message-video-box-footer > .button-box{
+    padding-left: 2em;
+    padding-right: 2em;
+    font-size: 1.3em;
+    border-color: white;
+    color: white;
+    font-weight: bolder;
+    border-width: 3px;
+}

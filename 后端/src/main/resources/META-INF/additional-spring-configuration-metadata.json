@@ -1,0 +1,10 @@
+{
+  "properties": [
+    {
+      "sourceType": "self.live.entity.SelfConfigPropertiesBean",
+      "name": "self.ciphertext",
+      "type": "java.lang.String",
+      "description": "密文."
+    }
+  ]
+}

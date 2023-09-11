@@ -1,0 +1,35 @@
+/*公共的css*/
+@import url("./main/main.css");
+/*加载组件样式*/
+@import url("./components/loading-control.css");
+/*消息提示框组件样式*/
+@import url("./components/message-box-control.css");
+/*确认提示框组件样式*/
+@import url("./components/confirm-tips-box-control.css");
+/*视频组件*/
+@import url("./components/video-box-control.css");
+/*聊天消息组件*/
+@import url("./components/chat-message-control.css");
+/*用户列表组件*/
+@import url("./components/user-list-control.css");
+/*聊天视频组件*/
+@import url("./components/chat-message-video-control.css");
+/*聊天图片组件*/
+@import url("./components/chat-message-image-control.css");
+/*自定义组件*/
+@import url("./components/custom-box-control.css");
+/*用户列表专用弹窗组件*/
+@import url("./components/user-list-tips-control.css");
+/*屏幕共享组件样式*/
+@import url("./components/tv-box-control.css");
+/*视频放大组件*/
+@import url("./components/video-max-box-control.css");
+/*选择下拉框组件*/
+@import url("./components/select-box-control.css");
+/*首个显示页面样式*/
+@import url("./main/first-box-biz.css");
+/*聊天室界面样式*/
+@import url("./main/chat-room-box-biz.css");
+/*响应式,简单的调了一下*/
+@import url("./responsive/1000.css");
+@import url("./responsive/1700px.css");

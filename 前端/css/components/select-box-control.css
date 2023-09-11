@@ -1,0 +1,43 @@
+.select-box {
+    width: 150px;
+    border: 2px dashed #aaa;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    border-radius: 3px;
+    position: relative;
+    background-color: #111;
+    transition: all .3s;
+    cursor: pointer;
+}
+
+.select-option-box-box{
+    position: absolute;
+    /*视频蒙版上面*/
+    z-index: 20;
+    display: flex;
+    flex-direction: column;
+    width: 150px;
+    left: -2px;
+    height: 0;
+    transition: all .3s;
+    display: none;
+    opacity: 0;
+}
+
+.select-option-box {
+    width: 100%;
+    height: 40px;
+    border: 2px dashed #d1d1d1;
+    border-bottom-width: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #111;
+    transition: all .3s;
+}
+
+.select-option-box:hover {
+    background-color: #333;
+}

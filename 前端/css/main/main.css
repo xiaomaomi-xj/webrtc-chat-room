@@ -1,0 +1,81 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-size: 14px;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    background-color: #cccccc;
+}
+
+.input-box-box {
+    width: 60%;
+    padding: 1em;
+}
+
+.input-box {
+    padding: .3em .5em;
+    border: 1px dashed white;
+    border-radius: 3px;
+}
+
+.input-box>input {
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    color: white;
+    font-size: 1.2em;
+}
+
+.button-box {
+    padding: .6em 1em;
+    border: 1px dashed white;
+    transition: all 1s;
+    cursor: pointer;
+}
+
+.button-box:hover {
+    background-color: rgb(122, 122, 122);
+}
+
+/*各个浮层的大小*/
+.video-max-box {
+    z-index: 777;
+}
+
+.message-box {
+    z-index: 666;
+}
+
+.confirm-tips-box {
+    z-index: 555;
+}
+
+.loading {
+    z-index: 444;
+}
+
+.chat-message-image-box {
+    z-index: 333;
+}
+
+.chat-message-video-box {
+    z-index: 333;
+}
+
+.custom-box {
+    z-index: 222;
+}
+
+.user-list-tips-box {
+    z-index: 111;
+}
+
+/*进度条隐藏*/
+::-webkit-scrollbar {
+    width: 0;
+}

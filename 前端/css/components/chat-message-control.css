@@ -1,0 +1,313 @@
+.chat-message-box {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.chat-message-header-box {
+    width: 100%;
+    height: 30px;
+    background-color: #222;
+    color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.chat-message-box .chat-message-body-box {
+    width: 100%;
+    height: 100%;
+    background-color: #bebebe;
+    padding: 5px;
+    box-sizing: border-box;
+    overflow-y: scroll;
+}
+
+.chat-message-box .chat-message-body-box .chat-message-body-left-box {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.chat-message-box .chat-message-body-box .chat-message-body-right-box {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.chat-message-body-head-sculpture {
+    width: 40px;
+    height: 40px;
+    background-color: #222;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 1.4em;
+}
+
+.chat-message-body-message-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.chat-message-body-message-file {
+    margin: 5px 10px 0 10px;
+    width: 300px;
+    height: 110px;
+    background-color: rgb(166, 166, 132);
+    box-shadow: 0 0px 5px rgb(100, 100, 80);
+    border-radius: 10px;
+}
+
+.chat-message-body-message-file-body {
+    width: 100%;
+    height: 75%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    font-size: 1.2em;
+    font-weight: bolder;
+}
+
+.chat-message-body-message-file-footer {
+    width: 100%;
+    height: 25%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.chat-message-body-message-file-style-text {
+    max-width: 200px;
+    font-size: 1.1em;
+    font-weight: bolder;
+    color: rgb(0, 0, 0);
+    border: 2px dashed rgb(0, 0, 0);
+    text-overflow: ellipsis;
+    overflow: hidden;
+    padding: 0 5px;
+}
+
+.chat-message-body-message-file-icon {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin-left: 30px;
+}
+
+.chat-message-body-message-file-name {
+    margin-left: 10px;
+    color: white;
+    width: 150px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+.chat-message-body-message-file-download-btn {
+    color: rgb(75, 75, 233);
+    font-size: 1.1em;
+    font-weight: bolder;
+    width: 50px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.chat-message-body-right-box .chat-message-body-message-box {
+    align-items: flex-end;
+}
+
+.chat-message-body-message {
+    color: black;
+    margin-left: 10px;
+    margin-right: 10px;
+    width: auto;
+    max-width: 70%;
+    padding: 5px;
+    background-color: #fff;
+    border-radius: 3px;
+    white-space: pre-wrap;
+    overflow-wrap: break-word;
+    font-size: 1em;
+}
+
+.chat-message-body-message-box .chat-message-body-id-box {
+    margin-left: 10px;
+    margin-right: 10px;
+    color: white;
+    width: auto;
+    background-color: black;
+    margin-bottom: 3px;
+    padding: 1px 2px;
+    border-radius: 5px;
+}
+
+.chat-message-body-message-box .chat-message-body-id-box .chat-message-body-id {
+    font-size: .6em;
+}
+
+.chat-message-box .chat-message-footer-box {
+    width: 100%;
+    height: 60px;
+    background-color: #464646;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    padding: 0 20px;
+}
+
+.chat-message-box .chat-message-footer-box .chat-message-input-box {
+    width: 100%;
+    height: 30px;
+    box-sizing: border-box;
+    padding: 0 8px;
+    border-radius: 15px;
+    border: 2px dashed #aaa;
+}
+
+.chat-message-box .chat-message-footer-box .chat-message-input-box>input {
+    width: 100%;
+    height: 100%;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    color: white;
+    font-size: 1.2em;
+}
+
+.chat-message-box .chat-message-footer-box .chat-message-send-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60px;
+    height: 30px;
+    border-radius: 20px;
+    background-color: #aaa;
+    cursor: default;
+    font-weight: bold;
+    margin-left: 30px;
+    margin-right: 30px;
+    box-sizing: border-box;
+}
+
+.chat-message-box .chat-message-footer-box .chat-message-send-btn.active {
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
+
+.file-box {
+    width: 34px;
+    height: 30px;
+    border-radius: 50%;
+    border: 3px dashed #aaa;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    cursor: pointer;
+    transition: all .3s;
+}
+
+.file-box>div {
+    border-radius: 2px;
+    position: absolute;
+    width: 15px;
+    height: 4px;
+    background-color: #aaa;
+    transition: all .3s;
+}
+
+.file-box .file-left-box {
+    transform: rotateZ(90deg);
+}
+
+.file-box:hover {
+    border-color: white;
+}
+
+.file-box:hover>div {
+    background-color: white;
+}
+
+/*加上图片和视频的直接显示*/
+.chat-message-body-image-box {
+    cursor: pointer;
+    background-color: #fff;
+    padding: 5px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.chat-message-body-image {
+    max-width: 200px;
+    max-height: 200px;
+}
+
+.chat-message-body-video-box {
+    cursor: pointer;
+    background-color: #fff;
+    padding: 5px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.chat-message-body-video-box::after {
+    content: '';
+    width: 25px;
+    height: 25px;
+    border: 2px solid white;
+    border-radius: 50%;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translateX(-50%) translateY(-50%);
+}
+
+/*画个三角*/
+.chat-message-body-video-box::before {
+    content: '';
+    width: 0;
+    height: 0;
+    border-left: 15px solid #fff;
+    border-right: 10px solid transparent;
+    border-top: 8px solid transparent;
+    border-bottom: 8px solid transparent;
+    position: absolute;
+    left: 52%;
+    top: 50%;
+    transform: translateX(-50%) translateY(-50%);
+}
+
+.chat-message-body-video {
+    max-width: 300px;
+    max-height: 300px;
+}

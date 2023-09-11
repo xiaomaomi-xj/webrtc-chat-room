@@ -1,0 +1,106 @@
+.loading{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 0;
+    bottom: 0;
+    opacity: 0;
+    display: none;
+    transition: 1s;
+}
+.loading .loading-box{
+    width: 200px;
+    height: 80px;
+    background-color: rgba(0,0,0,0);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.loading .loading-box .loading-box-item{
+    width: 6px;
+    border-radius: 12px;
+    animation-name: loding;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: cubic-bezier(0.6, -0.07, 1, 1);
+}
+.loading .loading-box .loading-box-item:nth-child(1){
+    background-color: #ff0000;
+    animation-delay: .7s;
+    animation-duration: .6s;
+}
+.loading .loading-box .loading-box-item:nth-child(2){
+    background-color: #ff7d00;
+    animation-delay: .6s;
+    animation-duration: .4s;
+}
+.loading .loading-box .loading-box-item:nth-child(3){
+    background-color: #ffff00;
+    animation-delay: .5s;
+    animation-duration: .7s;
+}
+.loading .loading-box .loading-box-item:nth-child(4){
+    background-color: #00ff00;
+    animation-delay: .4s;
+    animation-duration: .8s;
+}
+.loading .loading-box .loading-box-item:nth-child(5){
+    background-color: #00ffff;
+    animation-delay: .3s;
+    animation-duration: .4s;
+}
+.loading .loading-box .loading-box-item:nth-child(6){
+    background-color: #2ffab3;
+    animation-delay: .2s;
+    animation-duration: .9s;
+}
+.loading .loading-box .loading-box-item:nth-child(7){
+    background-color: #0000ff;
+    animation-delay: .1s;
+    animation-duration: 1s;
+}
+.loading .loading-box .loading-box-item:nth-child(8){
+    background-color: #2ffab3;
+    animation-delay: .2s;
+    animation-duration: .7s;
+}
+.loading .loading-box .loading-box-item:nth-child(9){
+    background-color: #00ffff;
+    animation-delay: .3s;
+    animation-duration: .9s;
+}
+.loading .loading-box .loading-box-item:nth-child(10){
+    background-color: #00ff00;
+    animation-delay: .4s;
+    animation-duration: .3s;
+}
+.loading .loading-box .loading-box-item:nth-child(11){
+    background-color: #ffff00;
+    animation-delay: .5s;
+    animation-duration: .7s;
+}
+.loading .loading-box .loading-box-item:nth-child(12){
+    background-color: #ff7d00;
+    animation-delay: .6s;
+    animation-duration: .8s;
+}
+.loading .loading-box .loading-box-item:nth-child(13){
+    background-color: #ff0000;
+    animation-delay: .7s;
+    animation-duration: .4s;
+}
+@keyframes loding {
+    0%{
+        height: 1px;
+    }
+    50%{
+        height:100%;
+    }
+    100%{
+        height: 1px;
+    }
+}

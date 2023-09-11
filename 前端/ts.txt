@@ -1,0 +1,5 @@
+安装ts
+npm install -g typescript
+
+监听ts转为js
+tsc --watch

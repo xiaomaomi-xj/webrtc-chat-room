@@ -1,0 +1,14 @@
+/*这个是为了兼容网页大小调整*/
+@media (max-width:1700px) and (min-width:1001px) {
+    .video-max-box .video-max-box-main{
+        max-width: 80%;
+    }
+
+    .chat-message-body-message{
+        max-width: 400px;
+    }
+
+    .chat-room-body-video-box{
+        width: 85%;
+    }
+}

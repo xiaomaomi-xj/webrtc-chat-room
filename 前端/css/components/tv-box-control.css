@@ -1,0 +1,42 @@
+.tv-box {
+    width: 90px;
+    height: 60px;
+    color: rgba(255, 255, 255, 0.747);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+.tv-header-box {
+    font-size: 1.3em;
+    font-weight: bolder;
+    width: 80%;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 5px solid rgba(255, 255, 255, 0.747);
+    border-radius: 2px;
+    transition: all .3s;
+}
+
+.tv-header-box>span {
+    font-size: 1.3em;
+    transition: all .3s;
+}
+
+.tv-body-box {
+    width: 50px;
+    height: 10px;
+    background-color: rgba(255, 255, 255, 0.747);
+    transition: all .3s;
+}
+
+.tv-footer-box {
+    width: 80%;
+    height: 5px;
+    background-color: rgba(255, 255, 255, 0.747);
+    transition: all .3s;
+}

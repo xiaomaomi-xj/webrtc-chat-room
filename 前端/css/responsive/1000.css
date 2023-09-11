@@ -1,0 +1,341 @@
+/*主要是适应手机端*/
+@media (max-width: 1000px) {
+    * {
+        font-size: 12px;
+    }
+
+    .first-form-box {
+        width: 350px;
+    }
+
+    .input-box-box {
+        width: 80%;
+    }
+
+    .select-box {
+        width: 80px;
+    }
+
+    .select-option-box-box {
+        width: 80px;
+    }
+
+    .chat-room-footer-box>div:nth-child(2) {
+        flex: 1;
+    }
+
+    .tv-box {
+        width: 50px;
+        height: 40px;
+    }
+
+    .tv-header-box {
+        font-size: 1em;
+        height: 20px;
+    }
+
+    .tv-body-box {
+        width: 30px;
+        height: 5px;
+    }
+
+    .tv-footer-bo {
+        height: 3px;
+    }
+
+    .chat-room-body-video-box {
+        width: 95%;
+    }
+
+    .chat-message-left-dot {
+        width: 7px;
+        height: 7px;
+    }
+
+    .exit-chat-room {
+        width: 30px;
+        height: 30px;
+    }
+
+    .exit-chat-room-left {
+        width: 20px;
+        height: 4px;
+    }
+
+    .exit-chat-room-right {
+        width: 20px;
+        height: 4px;
+    }
+
+    .chat-message-btn-box>div {
+        padding: 0 0em 0 .8em;
+    }
+
+    .message-box .message-box-main {
+        max-width: 80%;
+        min-width: 40%;
+    }
+
+    .message-box .message-box-main .message-box-header {
+        font-size: 1.1em;
+    }
+
+    .confirm-tips-box .confirm-tips-box-main {
+        max-width: 80%;
+        min-width: 40%;
+    }
+
+    .confirm-tips-box .confirm-tips-box-main .confirm-tips-box-header {
+        font-size: 1.1em;
+    }
+
+    .loading .loading-box {
+        width: 120px;
+        height: 60px;
+    }
+
+    .loading .loading-box .loading-box-item {
+        width: 3px;
+    }
+
+    .user-list-tips-box .user-list-tips-box-main .user-list-tips-box-main-body .user-list-tips-box-main-body-other-box {
+        padding: .5em;
+    }
+
+    .user-list-tips-box .user-list-tips-box-main {
+        font-size: 1.1em;
+        border-radius: 5px;
+        padding: 0;
+    }
+
+    .user-list-tips-box .user-list-tips-box-main .user-list-tips-box-main-header .user-list-tips-box-main-close {
+        width: 30px;
+        height: 30px;
+        margin: 10px;
+    }
+
+    .user-list-tips-box .user-list-tips-box-main .user-list-tips-box-main-header .user-list-tips-box-main-close>div {
+        width: 25px;
+        height: 5px;
+    }
+
+    .user-info-box {
+        height: 60px;
+    }
+
+    .user-head-sculpture {
+        width: 40px;
+        height: 40px;
+        margin-left: 10px;
+    }
+
+    .user-sfid {
+        max-width: 240px;
+        margin-left: 10px;
+        overflow-wrap: break-word;
+    }
+
+    .user-dot {
+        right: 10px;
+        width: 8px;
+        height: 8px;
+        box-shadow: rgb(240, 0, 0) 0px 0px 5px;
+    }
+
+    .custom-box .custom-box-main {
+        border-radius: 5px;
+    }
+
+    .custom-box .custom-box-main .custom-box-main-header .custom-box-main-clos {
+        width: 30px;
+        height: 30px;
+        margin: 10px;
+    }
+
+    .custom-box .custom-box-main .custom-box-main-header .custom-box-main-close>div {
+        width: 25px;
+        height: 5px;
+    }
+
+    .custom-box .custom-box-main .custom-box-main-header {
+        font-size: 1.1em;
+    }
+
+    .chat-message-body-head-sculpture {
+        width: 30px;
+        height: 30px;
+    }
+
+    .chat-message-body-message-box .chat-message-body-id-box {
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+
+    .chat-message-body-message-file {
+        margin-left: 5px;
+        margin-right: 5px;
+        border-radius: 5px;
+        width: 200px;
+        height: 80px;
+        overflow: hidden;
+    }
+
+    .chat-message-body-message-file-icon {
+        width: 40px;
+        height: 40px;
+        margin-left: 10px;
+    }
+
+    .chat-message-body-message-file-name {
+        width: 140px;
+        margin-left: 5px;
+    }
+
+    .chat-message-body-message-file-style-text {
+        max-width: 160px;
+        font-size: 1em;
+    }
+
+    .chat-message-body-message-box .chat-message-body-id-box .chat-message-body-id {
+        font-size: .8em;
+    }
+
+    .chat-message-header-box {
+        padding: 0;
+        font-size: .9em;
+    }
+
+    .chat-message-body-message {
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+
+    .chat-message-box {
+        box-sizing: border-box;
+    }
+
+    .chat-message-body-message {
+        max-width: 200px;
+    }
+
+    .custom-box .custom-box-main .custom-box-main-body .custom-box-main-body-other-box {
+        width: 90vw;
+    }
+
+    .user-list-tips-box .user-list-tips-box-main .user-list-tips-box-main-body .user-list-tips-box-main-body-other-box {
+        width: 90vw;
+    }
+
+    .chat-message-body-image {
+        max-width: 100px;
+        max-height: 100px;
+    }
+
+    .custom-box .custom-box-main {
+        padding: 0;
+    }
+
+    .chat-message-box .chat-message-footer-box {
+        padding: 0 5px;
+    }
+
+    .chat-message-box .chat-message-footer-box .chat-message-send-btn {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .file-box {
+        width: 40px;
+    }
+
+    .chat-message-image-box .chat-message-image-box-main .chat-message-image-box-body {
+        flex: 1;
+    }
+
+    .chat-message-image-box .chat-message-image-box-main {
+        min-height: 90vh;
+        background-color: rgba(0, 0, 0, 0.884);
+    }
+
+    .chat-message-image-box .chat-message-image-box-main .chat-message-image-box-header .chat-message-image-box-close {
+        width: 40px;
+        height: 40px;
+    }
+
+    .chat-message-image-box .chat-message-image-box-main .chat-message-image-box-header .chat-message-image-box-close .chat-message-image-box-left {
+        width: 20px;
+        height: 4px;
+    }
+
+    .chat-message-image-box .chat-message-image-box-main .chat-message-image-box-header .chat-message-image-box-close .chat-message-image-box-right {
+        width: 20px;
+        height: 4px;
+    }
+
+    .chat-message-image-box-footer>.button-box {
+        font-size: 1em;
+        border-width: 1px;
+    }
+
+    /*在手机端，视频可能无法显示封面*/
+    .chat-message-body-video-box {
+        margin-left: 5px;
+        margin-right: 5px;
+        background-color: #5c5c5c;
+        min-width: 100px;
+        min-height: 80px;
+    }
+
+    .chat-message-body-video-box::after {
+        left: 48%;
+    }
+
+    .chat-message-body-video {
+        max-width: 150px;
+        max-height: 150px;
+    }
+
+    .chat-message-video-box .chat-message-video-box-main .chat-message-video-box-body {
+        flex: 1;
+    }
+
+    .chat-message-video-box .chat-message-video-box-main {
+        min-height: 90vh;
+        background-color: rgba(0, 0, 0, 0.884);
+    }
+
+    .chat-message-video-box .chat-message-video-box-main .chat-message-video-box-header .chat-message-video-box-close {
+        width: 40px;
+        height: 40px;
+    }
+
+    .chat-message-video-box .chat-message-video-box-main .chat-message-video-box-header .chat-message-video-box-close .chat-message-video-box-left {
+        width: 20px;
+        height: 4px;
+    }
+
+    .chat-message-video-box .chat-message-video-box-main .chat-message-video-box-header .chat-message-video-box-close .chat-message-video-box-right {
+        width: 20px;
+        height: 4px;
+    }
+
+    .chat-message-video-box-footer>.button-box {
+        font-size: 1em;
+        border-width: 1px;
+    }
+
+    .video-max-box .video-max-box-main {
+        max-width: 90%;
+        padding: 0;
+        border-radius: 5px;
+    }
+
+    .video-max-box .video-max-box-main .video-max-box-header .video-max-box-close {
+        top: -135%;
+    }
+
+    /*手机不支持屏幕共享，直接取消*/
+    .chat-room-footer-middle-box {
+        display: none !important;
+    }
+}

@@ -1,0 +1,89 @@
+/*可以在组件上标注此类，来表示需要弹窗显示，不需要页面显示,父组件写上这个类，就会显示子组件*/
+.custom-use-box {
+    display: none !important;
+}
+
+.custom-box {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, .4);
+    top: 0;
+    left: 0;
+    opacity: 0;
+    transition: .6s;
+    display: none;
+}
+
+.custom-box .custom-box-main {
+    max-width: 90%;
+    min-width: 30%;
+    font-size: 1.2em;
+    color: rgb(221, 221, 221);
+    background-color: rgb(41, 41, 41);
+    padding: 1em;
+    box-shadow: 0 0px 20px black;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.custom-box .custom-box-main>div {
+    padding: 1em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.custom-box .custom-box-main .custom-box-main-header {
+    position: relative;
+    font-weight: bolder;
+    font-size: 1.2em;
+}
+
+.custom-box .custom-box-main .custom-box-main-header .custom-box-main-close {
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.custom-box .custom-box-main .custom-box-main-header .custom-box-main-close>div {
+    width: 35px;
+    height: 6px;
+    background-color: rgb(117, 0, 0);
+    border-radius: 3px;
+    position: absolute;
+    transition: all .6s;
+}
+
+.custom-box .custom-box-main .custom-box-main-header .custom-box-main-close:hover>div {
+    background-color: rgb(199, 0, 0);
+}
+
+.custom-box .custom-box-main .custom-box-main-header .custom-box-main-close .custom-box-main-left-close {
+    transform: rotateZ(45deg);
+}
+
+.custom-box .custom-box-main .custom-box-main-header .custom-box-main-close .custom-box-main-right-close {
+    transform: rotateZ(-45deg);
+}
+
+.custom-box .custom-box-main .custom-box-main-body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.custom-box .custom-box-main .custom-box-main-body .custom-box-main-body-other-box {
+    width: 50vw;
+    height: 80vh;
+}
