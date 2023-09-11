@@ -19,22 +19,22 @@ WebRTC 视频聊天室是基于 WebRTC 技术的应用，允许用户通过浏�
 
 #### 功能截图
 - 1.多人视频交流
-![](https://xiaomaomi-xj.github.io/webrtc-chat-room-demo/Inked1.png)
+![](https://xiaomaomi-xj.github.io/webrtc-chat-room/README%E9%9D%99%E6%80%81%E8%B5%84%E6%BA%90/Inked1.png)
 - 2.屏幕共享
-![](https://xiaomaomi-xj.github.io/webrtc-chat-room-demo/Inked10.png)
-![](https://xiaomaomi-xj.github.io/webrtc-chat-room-demo/Inked11.png)
-![](https://xiaomaomi-xj.github.io/webrtc-chat-room-demo/Inked12.png)
+![](https://xiaomaomi-xj.github.io/webrtc-chat-room/README%E9%9D%99%E6%80%81%E8%B5%84%E6%BA%90/Inked10.png)
+![](https://xiaomaomi-xj.github.io/webrtc-chat-room/README%E9%9D%99%E6%80%81%E8%B5%84%E6%BA%90/Inked11.png)
+![](https://xiaomaomi-xj.github.io/webrtc-chat-room/README%E9%9D%99%E6%80%81%E8%B5%84%E6%BA%90/Inked12.png)
 - 3.视频样式的更换
-![](https://xiaomaomi-xj.github.io/webrtc-chat-room-demo/Inked3.png)
-![](https://xiaomaomi-xj.github.io/webrtc-chat-room-demo/Inked2.png)
+![](https://xiaomaomi-xj.github.io/webrtc-chat-room/README%E9%9D%99%E6%80%81%E8%B5%84%E6%BA%90/Inked3.png)
+![](https://xiaomaomi-xj.github.io/webrtc-chat-room/README%E9%9D%99%E6%80%81%E8%B5%84%E6%BA%90/Inked2.png)
 - 4.聊天信息以及图片和视频的预览
-![](https://xiaomaomi-xj.github.io/webrtc-chat-room-demo/Inked4.png)
-![](https://xiaomaomi-xj.github.io/webrtc-chat-room-demo/Inked5.png)
-![](https://xiaomaomi-xj.github.io/webrtc-chat-room-demo/Inked6.png)
-![](https://xiaomaomi-xj.github.io/webrtc-chat-room-demo/Inked7.png)
+![](https://xiaomaomi-xj.github.io/webrtc-chat-room/README%E9%9D%99%E6%80%81%E8%B5%84%E6%BA%90/Inked4.png)
+![](https://xiaomaomi-xj.github.io/webrtc-chat-room/README%E9%9D%99%E6%80%81%E8%B5%84%E6%BA%90/Inked5.png)
+![](https://xiaomaomi-xj.github.io/webrtc-chat-room/README%E9%9D%99%E6%80%81%E8%B5%84%E6%BA%90/Inked6.png)
+![](https://xiaomaomi-xj.github.io/webrtc-chat-room/README%E9%9D%99%E6%80%81%E8%B5%84%E6%BA%90/Inked7.png)
 - 5.响应式布局
-![](https://xiaomaomi-xj.github.io/webrtc-chat-room-demo/Inked8.png)
-![](https://xiaomaomi-xj.github.io/webrtc-chat-room-demo/Inked9.png)
+![](https://xiaomaomi-xj.github.io/webrtc-chat-room/README%E9%9D%99%E6%80%81%E8%B5%84%E6%BA%90/Inked8.png)
+![](https://xiaomaomi-xj.github.io/webrtc-chat-room/README%E9%9D%99%E6%80%81%E8%B5%84%E6%BA%90/Inked9.png)
 
 #### 演示网站
 > 演示网站就不放了，你们可以自己运行一下，非常的简单。
